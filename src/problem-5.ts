@@ -12,7 +12,8 @@
     }
 
     function getProperty<T, K extends keyof T>(A:T, Key:K){
-     return A[Key]
+        const Value= A[Key]
+     return Value
     }
 
     const Returns = getProperty(NewObj, "roll")

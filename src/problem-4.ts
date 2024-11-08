@@ -30,11 +30,7 @@ function calculateShapeArea(A: Shape): number {
 const circleArea = calculateShapeArea({ s: "circle", r: 5 });
 console.log(circleArea.toFixed(2)); 
 
-const rectangleArea = calculateShapeArea({ 
-                                           s: "rectangle", 
-                                           w: 4,
-                                           h: 3 
-                                        });
+const rectangleArea = calculateShapeArea({ s: "rectangle", w: 4, h: 3 });
 console.log(rectangleArea); 
 
 }
